@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import services.ProductService;
 
 @RestController
-@RequestMapping("/products")
+@RequestMapping("api/products")
 public class ProductController {
 
     private final ProductService productService;
